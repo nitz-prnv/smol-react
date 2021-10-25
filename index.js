@@ -105,7 +105,7 @@ exec(
       .get(files.css)
       .then((res) => {
         fs.writeFileSync(
-          path.join(projectPath, "public", "index.css"),
+          path.join(projectPath, "public", "style.css"),
           res.data
         );
       })
