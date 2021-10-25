@@ -1,0 +1,18 @@
+{
+  "name": "smol-react",
+  "version": "0.0.1",
+  "description": "A create-react-app but with parcel ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "smol-react": "index.js"
+  },
+  "dependencies": {
+    "axios": "^0.23.0"
+  }
+}
